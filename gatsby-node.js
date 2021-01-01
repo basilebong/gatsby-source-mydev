@@ -15,6 +15,7 @@ const fetchArticlesAsync = require('./helpers/fetch-articles');
  * @param {any} param0.createContentDigest - Gatsby createContentDigest
  * @param {Object} param1
  * @param {string} param1.apiKey - Personal dev.to apiKey
+ * @returns {void}
  */
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }, { apiKey }) => {
   const { createNode } = actions;
@@ -26,4 +27,6 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }, { a
       data: a, key: 'article', createNodeId, createContentDigest,
     }),
   }));
+
+  return false;
 };
