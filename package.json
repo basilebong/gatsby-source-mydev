@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-source-mydev",
+  "version": "1.0.0",
+  "description": "Add your dev.to posts to your gatsby site!",
+  "repository": {
+    "url": "https://github.com/basilebong/gatsby-srouce-mydev.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "source",
+    "dev",
+    "dev.to"
+  ],
+  "author": "Basile Bong",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
