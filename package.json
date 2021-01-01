@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Add your dev.to posts to your gatsby site!",
   "repository": {
-    "url": "https://github.com/basilebong/gatsby-srouce-mydev.git"
+    "url": "https://github.com/basilebong/gatsby-source-mydev.git"
   },
   "main": "index.js",
   "scripts": {
