@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-mydev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add your dev.to posts to your gatsby site!",
   "repository": {
     "url": "https://github.com/basilebong/gatsby-source-mydev.git"
@@ -30,5 +30,7 @@
   "dependencies": {
     "axios": "^0.21.1"
   },
-  "jest": { "testEnvironment": "node" }
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
