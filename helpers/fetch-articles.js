@@ -18,6 +18,7 @@ module.exports = async ({ apiKey }) => {
     const data = await axios.get(DEV_URL, config);
     return data.data;
   } catch (error) {
+    console.log(error);
     throw new Error('Unable to fetch data from dev.to. Did you use a valid API key?');
   }
 };
