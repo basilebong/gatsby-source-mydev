@@ -5,7 +5,7 @@ const DEV_URL = 'https://dev.to/api/articles/me?page_count=1000';
 /**
  * Fetch articles from dev.to
  * @param {Object} param0
- * @param {string} param0.apiKey - Personal dev.to API key
+ * @param {String} param0.apiKey - Personal dev.to API key
  */
 module.exports = async ({ apiKey }) => {
   const config = {

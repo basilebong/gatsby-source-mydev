@@ -1,10 +1,10 @@
 /**
  * Create dev.to node meta
  * @param {Object} param0
- * @param {any} param0.data - The data from dev.to
- * @param {any} param0.key - Name of the data key
- * @param {any} param0.createNodeId - Gatsby createNodeId function
- * @param {any} param0.createContentDigest - Gatsby createContentDigest
+ * @param {*} param0.data - The data from dev.to
+ * @param {*} param0.key - Name of the data key
+ * @param {*} param0.createNodeId - Gatsby createNodeId function
+ * @param {*} param0.createContentDigest - Gatsby createContentDigest
  */
 module.exports = ({
   data, key, createNodeId, createContentDigest,
