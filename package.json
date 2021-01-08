@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-mydev",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add your dev.to posts to your gatsby site!",
   "repository": {
     "url": "https://github.com/basilebong/gatsby-source-mydev.git"
