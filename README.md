@@ -22,8 +22,6 @@ module.exports = {
 }
 ```
 
-[Find more information on how to generate a dev.to API key here](https://docs.dev.to/api/#section/Authentication)
-
 **Note: It is recommended to use a .env file to store the API key.**
 
 ## How to query
@@ -66,3 +64,12 @@ query MyQuery {
   }
 }
 ```
+
+## Additional information 
+
+- [How to generate a DEV API key](https://docs.dev.to/api/#section/Authentication)
+- [Detailed article on how to use the plugin](https://dev.to/basilebong/easily-add-your-dev-posts-to-any-gatsby-site-3fhe)
+
+## Author
+
+- [Basile Bong](https://basilebong.com)
