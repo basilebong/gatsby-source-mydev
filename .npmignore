@@ -1,0 +1,8 @@
+*.test.js
+.env
+.eslintrc.js
+.gitignore
+
+.github/
+.vscode/
+node_modules/

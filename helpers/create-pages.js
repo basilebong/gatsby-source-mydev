@@ -5,9 +5,10 @@
  * @param {any} param0.graphql - Gatsby graphql
  * @param {any} param0.reporter - Gatsby reporter
  * @param {String} param0.template - React component as string
+ * @param {String} param0.prefix - The URL prefix
  */
 module.exports = async ({
-  createPage, graphql, reporter, template,
+  createPage, graphql, reporter, template, prefix,
 }) => {
   const result = await graphql(`
       query {
@@ -52,8 +53,10 @@ module.exports = async ({
     return;
   }
   result.data.allMyDev.nodes.forEach(({ article }) => {
+    const urlPrefix = prefix && prefix.slice(-1) !== '/' ? `${prefix}/` : prefix;
+
     createPage({
-      path: `blog/${article.slug}`,
+      path: `${urlPrefix}/${article.slug}`,
       component: template,
       context: {
         article,
